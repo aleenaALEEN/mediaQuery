@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+        .nav{
+            height: 15vh;
+            width: 100%;
+            background-color: aqua;
+        }
+        .nav>ul{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 1px solid #000;
+            height: 100%;
+            list-style: none;
+            text-transform: capitalize;
+        }
+        .main{
+            height: 75vh;
+            width: 100%;
+            background-image: url('../Documents/fluxo/hero.png');
+            background-size: 100% 100%;
+            border: 1px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .section1{
+            height: auto;
+            border: 1px solid #000;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 30px 50px;
+        }
+        .card{
+            width: 300px;
+            background-color: red;
+            border: 1px solid #000;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card>h1{
+            padding: 30px 10px 20px 10px;
+            text-align: center;
+        }
+        .card>p{
+            padding: 00px 0px 30px 0px;
+            text-align: center;
+
+        }
+     /* @media screen and (min-width:400px) and (max-width:800px) {
+        .nav{
+            background-color: blue;
+        }
+     } */
+         @media screen and (max-width:400px) {
+         .nav{
+            background-color: blue;
+            height: 40vh;
+        }
+        .nav>ul{
+            flex-direction: column;
+        }
+        .card>h1{
+            font-size: 20px;
+        }
+     }
+     /* @media screen and (max-width:) {
+        
+     } */
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>blog</li>
+            <li>portfolio</li>
+            <li>contact</li>
+        </ul>
+    </div>
+    <div class="main">
+        <h1>pakistan zindabad</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus totam nobis voluptates eaque esse laboriosam eius odit ut non.</p>
+    </div>
+    <div class="section1">
+        <div class="card">
+            <h1>pakistan zindabad</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus totam nobis voluptates eaque esse laboriosam eius odit ut non.</p>
+        </div>
+        <div class="card">
+            <h1>pakistan zindabad</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus totam nobis voluptates eaque esse laboriosam eius odit ut non.</p>
+        </div>
+        <div class="card">
+            <h1>pakistan zindabad</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus totam nobis voluptates eaque esse laboriosam eius odit ut non.</p>
+        </div>
+        <div class="card">
+            <h1>pakistan zindabad</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus totam nobis voluptates eaque esse laboriosam eius odit ut non.</p>
+        </div>
+        <div class="card">
+            <h1>pakistan zindabad</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus totam nobis voluptates eaque esse laboriosam eius odit ut non.</p>
+        </div>
+        <div class="card">
+            <h1>pakistan zindabad</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus totam nobis voluptates eaque esse laboriosam eius odit ut non.</p>
+        </div>
+        <div class="card">
+            <h1>pakistan zindabad</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus totam nobis voluptates eaque esse laboriosam eius odit ut non.</p>
+        </div>
+        <div class="card">
+            <h1>pakistan zindabad</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus totam nobis voluptates eaque esse laboriosam eius odit ut non.</p>
+        </div>
+    </div>
+</body>
+</html>
